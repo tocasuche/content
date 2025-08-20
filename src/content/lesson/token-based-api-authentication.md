@@ -27,7 +27,7 @@ There are several ways to create an authentication layer in web applications, bu
 In plain English, authentication means being able to identify who is making requests to your API; You normally implement an authentication layer in your application because you want:
 
 - Users to be able to log in and log out.
-- Privacy protection: Restrict access to information based on the user role. For example: Only I should be able to update my email and password, only I should review my medical health history.
+- Privacy protection: Restrict access to information based on the user role. For example: Only I should be able to update my email and password, only I should be able to review my medical health history.
 - Limit user permissions: Restrict access to certain functionalities, for example: A user needs to pay to download a book, or not being able to comment on a forum unless you log in, etc.
 
 To explain in detail "Token Based API Authentication" it's better to start explaining about tokens.
