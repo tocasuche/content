@@ -110,7 +110,7 @@ The most simple way to implement authentication in your database and API:
 
 1. Create a `User` table/model that represents every user inside your application.
 2. That User table must contain email and password for every user.
-3. Create one API endpoint called `POST /token` that generates a token only if it receives an email and password that matches in the database.
+3. Create one API endpoint called `POST /token` that generates a token only if it receives an email and password that matches the email and password that is stored in the database.
 4. The `POST /token` endpoint will return the token to the front-end if everything is okay.
 5. Then, on every other endpoint in your database, you will have to validate if the token exists in the request header, and if it does, you will have to validate it.
 
